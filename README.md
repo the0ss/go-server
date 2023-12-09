@@ -1,3 +1,3 @@
 ## Sorting Server
 
-Simple API server for sorting
+Simple API server for sorting 2D array.
