@@ -40,3 +40,13 @@ curl -X POST -H "Content-Type: application/json" -d '{"to_sort": [[3, 2, 1], [6,
   "to_sort": [[1, 3, 2], [4, 7, 6], [7, 8, 9], [7, 8, 10], [11, 8, 9], [7, 2, 9]]
   }
   ```
+
+### Deployed On render
+
+- cURL
+```
+curl -X POST -H "Content-Type: application/json" -d '{"to_sort": [[3, 2, 1], [6, 5, 4], [9, 8, 7]]}' https://sorting-server-rjv1.onrender.com/process-single
+```
+```
+curl -X POST -H "Content-Type: application/json" -d '{"to_sort": [[3, 2, 1], [6, 5, 4], [9, 8, 7]]}' https://sorting-server-rjv1.onrender.com/process-concurrent
+```
